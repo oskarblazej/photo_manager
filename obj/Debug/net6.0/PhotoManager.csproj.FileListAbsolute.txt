@@ -1,0 +1,15 @@
+C:\Users\hampe\Documents\Code\C#\photo_manager\bin\Debug\net6.0\PhotoManager.exe
+C:\Users\hampe\Documents\Code\C#\photo_manager\bin\Debug\net6.0\PhotoManager.deps.json
+C:\Users\hampe\Documents\Code\C#\photo_manager\bin\Debug\net6.0\PhotoManager.runtimeconfig.json
+C:\Users\hampe\Documents\Code\C#\photo_manager\bin\Debug\net6.0\PhotoManager.dll
+C:\Users\hampe\Documents\Code\C#\photo_manager\bin\Debug\net6.0\PhotoManager.pdb
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.csproj.AssemblyReference.cache
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.AssemblyInfoInputs.cache
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.AssemblyInfo.cs
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.csproj.CoreCompileInputs.cache
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.dll
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\refint\PhotoManager.dll
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.pdb
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\PhotoManager.genruntimeconfig.cache
+C:\Users\hampe\Documents\Code\C#\photo_manager\obj\Debug\net6.0\ref\PhotoManager.dll

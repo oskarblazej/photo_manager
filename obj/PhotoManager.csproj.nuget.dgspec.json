@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager\\PhotoManager.csproj": {}
+    "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager\\PhotoManager.csproj": {
+    "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager\\PhotoManager.csproj",
+        "projectUniqueName": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager.csproj",
         "projectName": "PhotoManager",
-        "projectPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager\\PhotoManager.csproj",
+        "projectPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager.csproj",
         "packagesPath": "C:\\Users\\hampe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\PhotoManager\\obj\\",
+        "outputPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\photo_manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
