@@ -14,6 +14,12 @@ namespace PhotoManager
             Console.Write("Please provide file extension ex: '.jpg': ");
             string FileExt = "*" + Console.ReadLine();
             FileInfo[] Files = d.GetFiles(FileExt); //Getting Text files    
+            // TODO: If directory is empty or no files with given extension, exit
+            if (Files.Length == 0)
+            {
+                Console.WriteLine("No files in current directory or wrong extension.");
+                System.Environment.Exit(1);
+            }
          
             ///*
             int choice ;
