@@ -14,14 +14,14 @@ namespace PhotoManager
             Console.Write("Please provide file extension ex: '.jpg': ");
             string FileExt = "*" + Console.ReadLine();
             FileInfo[] Files = d.GetFiles(FileExt); //Getting Text files    
-            // TODO: If directory is empty or no files with given extension, exit
+          
             if (Files.Length == 0)
             {
                 Console.WriteLine("No files in current directory or wrong extension.");
+                Console.WriteLine("Check everything again and re-run the program.");
                 System.Environment.Exit(1);
             }
          
-            ///*
             int choice ;
             bool sYear = false;
             bool sMonth = false;
@@ -31,42 +31,48 @@ namespace PhotoManager
             Console.WriteLine("2. Sort by creation year and month");
             Console.WriteLine("3. Sort by creation year, month and day");
             Console.WriteLine("4. Exit application");
-            Console.Write("Chose option: ");
-            start:
+            while (true)
+            {
+                Console.Write("Chose option: ");            
                 try
-                { 
+                {
                     choice = int.Parse(Console.ReadLine());
-            
+
+
                 }
-                catch (Exception ex) 
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    goto start;
+                    continue;
                 }
-            switch (choice)
-            {
-                case 1:
-                    sYear = true;
-                    break; 
-                case 2:
-                    sYear = true;
-                    sMonth = true;
-                    break; 
-                case 3:
-                    sYear = true;
-                    sMonth = true;
-                    sDay = true;
-                    break; 
-                case 4:
-                    Console.WriteLine("Thank you for using our application!");
-                    System.Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("Option not listed in the meny");
-                    goto start;
+
+
+                switch (choice)
+                {
+                    case 1:
+                        sYear = true;
+                        break;
+                    case 2:
+                        sYear = true;
+                        sMonth = true;
+                        break;
+                    case 3:
+                        sYear = true;
+                        sMonth = true;
+                        sDay = true;
+                        break;
+                    case 4:
+                        Console.WriteLine("Thank you for using our application");
+                        System.Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Option not listed in the menu");
+                        continue;
+                }
+                break;
             }
             SortFiles(Files, sYear, sMonth, sDay);
-            //*/
+
         }
 
 
